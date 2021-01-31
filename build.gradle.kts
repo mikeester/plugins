@@ -13,7 +13,6 @@ plugins {
 project.extra["GithubUrl"] = "https://github.com/mikeester/plugins"
 
 apply<BootstrapPlugin>()
-apply<VersionPlugin>()
 
 allprojects {
     group = "com.openosrs.externals"
@@ -115,8 +114,8 @@ subprojects {
             doLast {
                 copy {
                     from("./build/libs/")
-                    // into(System.getProperty("user.home") + "/.runelite/externalmanager")
-                    into("$rootDir/release/")
+                    into(System.getProperty("user.home") + "/.runelite/externalmanager")
+                    // into("$rootDir/release/")
                 }
             }
         }
