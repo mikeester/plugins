@@ -1,5 +1,5 @@
 # Mikeester plugins
-Open source plugins for OpenOSRS client
+Open source automation plugins for OpenOSRS client
 
 This was made mainly for other people to use as a reference
 
