@@ -25,11 +25,11 @@
 
 rootProject.name = "plugins"
 
-include(":mkutils")
-include(":mkhidetanner")
-include(":mkhunter")
-
-
+include(":mk-utils")
+include(":mk-hidetanner")
+include(":mk-hunter")
+include(":mk-smither")
+include(":mk-tabmaker")
 
 for (project in rootProject.children) {
     project.apply {

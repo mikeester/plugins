@@ -1,7 +1,5 @@
-# Mikeester plugins
-Open source automation plugins for OpenOSRS client
+![OpenOSRS - CI (Push)](https://github.com/open-osrs/plugins/workflows/OpenOSRS%20-%20CI%20(Push)/badge.svg?branch=master)
 
-This was made mainly for other people to use as a reference
+# Mikester plugin repository
 
-## Credits
-illumine for his extensive open source resources, and his utils which I include in the project (slightly modified)
+Automation plugins for OpenOSRS client. Thanks to [illumine](https://github.com/illumineawake/) for his open source [plugins and utils](https://github.com/illumineawake/illu-plugins/).
